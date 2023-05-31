@@ -1,0 +1,65 @@
+body .height-302px {
+	height: 302px;
+}
+
+body .box-content .clear {
+	clear: left;
+}
+
+body .card .card-body ul {
+	overflow: auto;
+	max-height: 220px;
+	padding: 0 0 0 16px;
+	margin: 0;
+}
+
+body .box-content .jadwal {
+	width: 360px;
+	height: 470px;
+	margin-top: 10px;
+	float: left;
+}
+body .box-content .jadwal:nth-child(even) {
+	margin-left: 60px;
+}
+body .box-content .jadwal h5 {
+	width: 100%;
+	margin: 24px 0 25px 0;
+	padding: 0 0 0 40px;
+	font-weight: bold;
+}
+body .box-content .jadwal ul {
+	width: 300px;
+	margin: 0 0 0 20px;
+	overflow: auto;
+	max-height: 270px;
+}
+body .box-content .jadwal ul::-webkit-scrollbar {
+	width: 10px;
+	border-radius: 10px;
+}
+body .box-content .jadwal ul::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+		left bottom,
+		left top,
+		color-stop(0.44, rgb(122, 153, 217)),
+		color-stop(0.72, rgb(73, 125, 189)),
+		color-stop(0.86, rgb(28, 58, 148)));
+}
+body .box-content .jadwal ul::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0,3);
+	background-color: #748290;
+	border-radius: 10px;
+}
+body .box-content .jadwal ul li {
+
+}
+body .box-content .jadwal ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+}
+body .box-content .jadwal ul li a:hover {
+	color: #2B5069;
+}

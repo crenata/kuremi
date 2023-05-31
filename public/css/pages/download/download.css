@@ -1,0 +1,75 @@
+body .box-content {
+	margin: 30px 0 16px 0;
+	padding: 20px;
+	/*border: 2px solid black;*/
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px 3px gray;
+}
+body .box-content .line {
+	width: 500px;
+	height: 1px;
+	background-color: #328ECB;
+	margin: 0 0 14px 0;
+}
+body .box-content a {
+	text-decoration: none;
+}
+
+body .box-content .info {
+	margin-top: 20px;
+}
+body .box-content .info table {
+	width: 100%;
+}
+body .box-content .info table td {
+	padding: 5px 0 5px 0;
+}
+body .box-content .info table td:nth-child(1) {
+	width: 36px;
+	border-bottom: 1px solid #DDDDDD;
+}
+body .box-content .info table td:nth-child(2) {
+	width: 140px;
+	font-weight: bold;
+	border-bottom: 1px solid #DDDDDD;
+}
+body .box-content .info table td:nth-child(3) {
+	padding: 0 1px 0 1px;
+}
+body .box-content .info table td:nth-child(4) {
+	font-weight: bold;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+body .box-content .download {
+	margin: 16px 0 0 0;
+}
+body .box-content .download a {
+	width: 160px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	background-color: gray;
+	border-radius: 4px;
+	padding: 6px 0 6px 0;
+}
+
+body .copyright {
+	background-color: #0C1215;
+	border-radius: 4px;
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+body .copyright p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    color: #AEAEAF;
+    font-size: 12px;
+}
+body .copyright p a {
+	color: #91B5D0;
+}

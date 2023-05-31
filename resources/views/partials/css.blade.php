@@ -1,0 +1,12 @@
+{{ Html::style('public/plugin/bootstrap-4.1.3/dist/css/bootstrap.css') }}
+{{-- Html::style('public/plugin/Semantic-UI-CSS-master/semantic.css') --}}
+{{ Html::style('public/plugin/fontawesome-free-5.3.1-web/css/all.css') }}
+{{ Html::style('public/plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}
+{{ Html::style('public/plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css') }}
+{{ Html::style('public/plugin/plyr-3.4.4/dist/plyr.css') }}
+{{ Html::style('public/css/style.css') }}
+{{ Html::style('public/css/footer.css') }}
+{{-- Html::style('public/plugin/TabStylesInspiration/css/demo.css') --}}
+{{-- Html::style('public/plugin/TabStylesInspiration/css/tabs.css') --}}
+{{-- Html::style('public/plugin/TabStylesInspiration/css/tabstyles.css') --}}
+{{-- Html::style('public/plugin/materialize/css/materialize.css') --}}

@@ -1,0 +1,50 @@
+body .box-content .all-ongoings {
+
+}
+body .box-content .all-ongoings .semi {
+
+}
+body .box-content .all-ongoings .semi h1 {
+	width: 500px;
+	font-size: 18px;
+	font-weight: bold;
+}
+body .box-content .all-ongoings .semi h1 span {
+	/*float: right;*/
+}
+body .box-content .all-ongoings .semi .line .single-line {
+	/*width: 660px;*/
+	height: 3px;
+	background-color: #85B5F5;
+}
+body .box-content .all-ongoings .semi article {
+	margin: 7px 0 7px 0;
+	/*max-width: 660px;*/
+}
+body .box-content .all-ongoings .semi article a {
+	color: black;
+	text-decoration: none !important;
+}
+body .box-content .all-ongoings .semi article a:hover {
+	color: #0B6A9A;
+}
+body .box-content .all-ongoings .semi article .vertical-line {
+	border-left: 4px solid #78ACF4;
+	height: 126px;
+	margin-top: 6px;
+}
+body .box-content .all-ongoings .semi article .vertical-line .info li {
+	list-style-type: none;
+	margin-left: 7px;
+	font-size: 14px;
+}
+body .box-content .all-ongoings .semi article .vertical-line .info .complete-info {
+	background-color: #FFB233;
+	padding: 4px;
+	border-radius: 3px;
+}
+body .box-content .all-ongoings .semi article .line-break {
+	background-color: #DDDDDD;
+	height: 1px;
+	margin-top: 6px;
+}

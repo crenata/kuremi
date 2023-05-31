@@ -1,0 +1,239 @@
+body .single-line {
+	height: 3px;
+	background-color: #85B5F5;
+}
+body .no-margin {
+	margin: 0 !important;
+}
+
+body .box-content .clear {
+	clear: left;
+}
+body .box-content .clear-right {
+	clear: right;
+}
+body .box-content .clear-both {
+	clear: both;
+}
+
+body .line {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+body .line .left-line, .right-line {
+	width: 25%;
+	height: 4px;
+	background-color: #5CB4FF;
+	float: left;
+}
+body .line .center-line {
+	width: 50%;
+	height: 4px;
+	background-color: #FF9726;
+	float: left;
+}
+
+body .box-content .banner {
+	max-width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+body .box-content .banner .img-banner {
+	width: 100%;
+	height: auto;
+}
+body .box-content .banner .img-default {
+	position: absolute;
+	top: 300px;
+	right: 50px;
+	border: 4px solid #78ACF4;
+}
+body .box-content h6 {
+	font-weight: bold;
+	margin-top: 20px;
+}
+body .box-content .trailer {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+body .box-content .description {
+	margin-top: 20px;
+}
+body .box-content .description table {
+	width: 100%;
+	font-size: 14px;
+	margin-top: 10px;
+}
+body .box-content .description table .spacing {
+	width: 100%;
+	height: 3px;
+}
+body .box-content .description table tr {
+	border-left: 4px solid #78ACF4;
+	border-bottom: 2px solid rgb(75, 255, 255);
+	margin-top: 100px;
+}
+body .box-content .description table tr:hover {
+	border-left-color: #F28C3E
+}
+body .box-content .description table tr td {
+	padding: 5px 0 5px 0;
+}
+body .box-content .description table tr td:nth-child(1) {
+	width: 140px;
+	padding-left: 7px;
+}
+body .box-content .description table tr td:nth-child(2) {
+	width: 10px;
+}
+
+body .box-content .sinopsis,
+body .box-content .insight,
+body .box-content .episode,
+body .box-content .download {
+	margin-top: 10px;
+}
+body .box-content .sinopsis p {
+	margin-top: 7px;
+}
+
+body .box-content .insight .insight-content {
+	margin: 10px 0 0 0;
+}
+body .box-content .insight .insight-content table {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+body .box-content .insight .insight-content table tr {
+	float: left;
+	background-color: #F1F1F1;
+	margin-top: 4px;
+}
+body .box-content .insight .insight-content table tr:nth-child(odd) {
+	margin-right: 42px;
+}
+body .box-content .insight .insight-content table tr td:nth-child(2) {
+	padding-left: 5px;
+	width: 106px;
+}
+body .box-content .insight .insight-content table tr td:nth-child(3) {
+	width: 60px;
+}
+body .box-content .insight .insight-content table tr td:nth-child(4) {
+	padding-right: 5px;
+	width: 106px;
+	text-align: right;
+}
+body .box-content .insight .insight-content table tr td a {
+	font-size: 14px;
+}
+body .box-content .insight .insight-content table tr td .letter-spacing {
+	white-space: normal;
+}
+
+body .box-content .episode ul {
+	list-style-type: none;
+	margin: 7px 0 0 0;
+	padding: 0;
+}
+body .box-content .episode ul li {
+
+}
+body .box-content .episode ul li a {
+	font-size: 14px;
+}
+
+body .box-content .comment {
+
+}
+body .box-content .comment form {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+body .box-content .comment .addcomment {
+	margin: 10px 0 10px 0;
+	height: auto;
+}
+body .box-content .comment .comment-body {
+	margin-top: 10px;
+}
+body .box-content .comment .comment-body .reply {
+	margin-bottom: 10px;
+}
+body .box-content .comment .comment-body .form-reply {
+	display: none;
+	margin: 0 0 10px 0;
+}
+body .box-content .comment .comment-body .form-reply form {
+	width: 100%;
+	height: 10em;
+}
+body .box-content .comment .comment-body table {
+	padding: 0;
+	margin: 0;
+	display: block;
+	width: 100%;
+}
+body .box-content .comment .comment-body .rep {
+	width: 100%;
+	padding-left: 10px;
+}
+
+body .box-content .download ul {
+	list-style-type: none;
+	margin: 7px 0 0 0;
+	padding: 0;
+}
+body .box-content .download ul li {
+	/*text-align: center;*/
+	margin: 0;
+}
+body .box-content .download ul li h6 {
+	margin: 10px 0 8px 0;
+	padding: 4px 0 4px 6px;
+	background-color: #748290;
+	color: white;
+	border-left: 5px solid #47516E;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+body .box-content .download ul li ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+body .box-content .download ul li ul li {
+	/*text-align: center;*/
+	margin: 0;
+}
+body .box-content .download ul li ul li .content-download {
+	margin: 4px 0 0 0;
+}
+body .box-content .download ul li ul li .content-download blockquote {
+	width: 70px;
+	text-align: center;
+	background-color: #121A1F;
+	color: white;
+	margin: 0 10px 0 0;
+	padding: 2px 10px 2px 10px;
+	border-radius: 3px;
+	float: left;
+}
+body .box-content .download ul li ul li .content-download .links {
+	
+}
+body .box-content .download ul li ul li .content-download .links a {
+	float: left;
+	padding: 2px 10px 2px 10px;
+	margin: 0 6px 0 0;
+	display: block;
+	text-decoration: none;
+	background-color: #091015;
+	color: white;
+	border-radius: 3px;
+}

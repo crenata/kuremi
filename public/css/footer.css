@@ -1,0 +1,125 @@
+footer .kuremi-footer {
+	width: 100%;
+	max-height: 340px;
+	background-color: #121A1F;
+	padding: 0 0 20px 0;
+}
+footer .kuremi-footer .footer-line {
+	width: 100%;
+	height: 5px;
+	background-color: #78C8F0;
+	margin: 0;
+}
+footer .kuremi-footer .footer-heading .about {
+	max-width: 500px;
+	margin: 0 auto;
+}
+footer .kuremi-footer .footer-heading .about .title {
+	margin: 10px;
+	color: white;
+}
+footer .kuremi-footer .footer-heading .about center .line {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+footer .kuremi-footer .footer-heading .about center .line .left-line {
+	width: 125px;
+	height: 4px;
+	background-color: #328ECB;
+	float: left;
+}
+footer .kuremi-footer .footer-heading .about center .line .center-line {
+	width: 250px;
+	height: 4px;
+	background-color: #2B5069;
+	float: left;
+}
+footer .kuremi-footer .footer-heading .about center .line .right-line {
+	width: 125px;
+	height: 4px;
+	background-color: #328ECB;
+	float: left;
+}
+footer .kuremi-footer .footer-heading .about p {
+	color: #BBBBBB;
+	font-size: 13px;
+	margin: 20px 0 20px 0;
+}
+footer .kuremi-footer .footer-heading .about .line {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+footer .kuremi-footer .footer-heading .about .line .left-line, .right-line {
+	width: 125px;
+	height: 4px;
+	background-color: #2B5069;
+	float: left;
+}
+footer .kuremi-footer .footer-heading .about .line .center-line {
+	width: 250px;
+	height: 4px;
+	background-color: #328ECB;
+	float: left;
+}
+
+
+footer .kuremi-footer .footer-body {
+	margin: 12px 0 0 0;
+}
+footer .kuremi-footer .footer-body h3 {
+	color: #DDDDDD;
+	font-size: 13px;
+}
+footer .kuremi-footer .footer-body h3 span {
+	color: #50B3FA;
+	font-size: 13px;
+	margin-right: 10px;
+}
+footer .kuremi-footer .footer-body .line {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+footer .kuremi-footer .footer-body .line .left-line, .right-line {
+	height: 4px;
+	float: left;
+}
+footer .kuremi-footer .footer-body .line .left-line {
+	width: 200px;
+	background-color: #091015;
+}
+footer .kuremi-footer .footer-body .line .right-line {
+	width: 90px;
+	background-color: #112737;
+}
+footer .kuremi-footer .footer-body .list li {
+	color: #517384;
+}
+footer .kuremi-footer .footer-body .list li a {
+	font-size: 12px;
+	color: #70899C;
+	text-decoration: none;
+}
+footer .kuremi-footer .footer-body .list li a:hover {
+	color: #BBBBBB;
+}
+footer .copyright {
+	background-color: #0C1215;
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+footer .copyright p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    color: #AEAEAF;
+    font-size: 12px;
+}
+footer .copyright p a {
+	color: #91B5D0;
+}

@@ -1,0 +1,113 @@
+body .box-content .clear {
+	clear: left;
+}
+
+
+body .box-content .genres-accordion {
+	
+}
+body .box-content .genres-accordion .accordion .card .card-header a {
+	text-decoration: none;
+	display: block;
+}
+
+
+body .box-content h4 {
+	color: #0F194A;
+}
+
+
+body .box-content ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 10px;
+}
+body .box-content ul li {
+	width: 234px;
+	/*background-color: #3A78B6;*/
+	margin: 4px;
+	text-align: center;
+	padding: 10px 25px 10px 25px;
+	border-radius: 3px;
+	float: left;
+}
+body .box-content ul li:nth-child(odd) {
+	-webkit-animation: random_odd 5s infinite;
+	animation: random_odd 5s infinite;
+}
+body .box-content ul li:nth-child(even) {
+	-webkit-animation: random_even 5s infinite;
+	animation: random_even 5s infinite;
+}
+@keyframes random_odd {
+	15% { background-color: #121A1F; }
+	30% { background-color: #0C1215; }
+	45% { background-color: #2B5069; }
+	60% { background-color: red; }
+	75% { background-color: #7280AF; }
+}
+@keyframes random_even {
+	15% { background-color: #7280AF; }
+	30% { background-color: #080B12; }
+	45% { background-color: red; }
+	60% { background-color: #0C1215; }
+	75% { background-color: #121A1F; }
+}
+body .box-content ul li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+body .box-content .genres-content {
+
+}
+body .box-content .genres-content .semi {
+
+}
+body .box-content .genres-content .semi h1 {
+	width: 500px;
+	font-size: 18px;
+	font-weight: bold;
+}
+body .box-content .genres-content .semi h1 span {
+	/*float: right;*/
+}
+body .box-content .genres-content .semi .line .single-line {
+	/*width: 660px;*/
+	height: 3px;
+	background-color: #85B5F5;
+}
+body .box-content .genres-content .semi article {
+	margin: 7px 0 7px 0;
+	/*max-width: 660px;*/
+}
+body .box-content .genres-content .semi article a {
+	color: black;
+	text-decoration: none !important;
+}
+body .box-content .genres-content .semi article a:hover {
+	color: #0B6A9A;
+}
+body .box-content .genres-content .semi article .vertical-line {
+	border-left: 4px solid #78ACF4;
+	height: 126px;
+	margin-top: 6px;
+}
+body .box-content .genres-content .semi article .vertical-line .info li {
+	list-style-type: none;
+	margin-left: 7px;
+	font-size: 14px;
+}
+body .box-content .genres-content .semi article .vertical-line .info .complete-info {
+	background-color: #FFB233;
+	padding: 4px;
+	border-radius: 3px;
+}
+body .box-content .genres-content .semi article .line-break {
+	background-color: #DDDDDD;
+	height: 1px;
+	margin-top: 6px;
+}

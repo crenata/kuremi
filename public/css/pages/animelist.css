@@ -1,0 +1,67 @@
+body .box-content {
+	/*border: 1px solid #DCDCDC;
+	padding: 10px;*/
+}
+
+
+body .box-content .alphabet {
+	padding: 8px;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+body .box-content .alphabet ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+body .box-content .alphabet ul li {
+	float: left;
+	margin-left: 3px;
+	width: 24px;
+	height: auto;
+	text-align: center;
+}
+body .box-content .alphabet ul li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	background-color: blue;
+}
+
+body .box-content .clear {
+	clear: left;
+}
+
+body .box-content .anime-list {
+	margin-top: 10px;
+}
+body .box-content .anime-list h6 {
+	color: blue;
+	margin-top: 20px;
+}
+body .box-content .anime-list .single-line {
+	height: 3px;
+}
+body .box-content .anime-list .single-line:nth-child(even) {
+	background-color: orange;
+}
+body .box-content .anime-list .single-line:nth-child(odd) {
+	background-color: #B53428;
+}
+body .box-content .anime-list ul {
+	padding: 0 0 0 16px;
+	margin-top: 10px;
+}
+body .box-content .anime-list ul li {
+	float: left;
+	width: 340px;
+}
+body .box-content .anime-list ul li a {
+	font-size: 14px;
+	color: #33363B;
+	text-decoration: none;
+}
+body .box-content .anime-list ul li a:hover {
+	color: #41A0FF;
+}

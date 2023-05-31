@@ -1,0 +1,18 @@
+body .box-content .video {
+	max-width: 100%;
+	height: auto;
+}
+
+body .box-content .video-info {
+	margin-top: 10px;
+}
+
+body .box-content .sinopsis {
+	margin-top: 10px;
+}
+body .box-content .sinopsis h6 {
+	font-weight: bold;
+}
+body .box-content .sinopsis p {
+	margin-top: 7px;
+}
